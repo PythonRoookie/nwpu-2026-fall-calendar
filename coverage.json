@@ -1,0 +1,25 @@
+{
+  "source_entries": [
+    {"id":"pdf-mon-3-4","source_id":"timetable-pdf","description":"星期一3-4节：多级轴流压气机特性预测","matches":[{"name":"多级轴流压气机特性预测 01","day":"monday","slot":"3-4","weeks":[4,5,6,7]}]},
+    {"id":"pdf-mon-7-8","source_id":"timetable-pdf","description":"星期一7-8节：叶栅气体动力学基础","matches":[{"name":"叶栅气体动力学基础 01","day":"monday","slot":"7-8","weeks":[7,8,9,10]}]},
+    {"id":"pdf-tue-1-2","source_id":"timetable-pdf","description":"星期二1-2节：数值分析","matches":[{"name":"数值分析 14","day":"tuesday","slot":"1-2","weeks":[3,4,5,6,7,8,9,10,11,12,13,14]}]},
+    {"id":"pdf-tue-3-4","source_id":"timetable-pdf","description":"星期二3-4节：研究生科技英语","matches":[{"name":"研究生科技英语 08","day":"tuesday","slot":"3-4","weeks":[2,3,4,5,6,7,8,9]}]},
+    {"id":"pdf-tue-9-10","source_id":"timetable-pdf","description":"星期二9-10节：超燃冲压发动机原理和高超声速气动热力学","matches":[{"name":"超燃冲压发动机原理 01","day":"tuesday","slot":"9-10","weeks":[3,4,5,6]},{"name":"高超声速气动热力学 01","day":"tuesday","slot":"9-10","weeks":[7,8,9,10]}]},
+    {"id":"pdf-tue-11-12","source_id":"timetable-pdf","description":"星期二11-12节：学术规范与科技论文写作","matches":[{"name":"学术规范与科技论文写作 02","day":"tuesday","slot":"11-13","weeks":[11,12,13,14,15]},{"name":"学术规范与科技论文写作 02","day":"tuesday","slot":"11-12","weeks":[16]}]},
+    {"id":"pdf-tue-13","source_id":"timetable-pdf","description":"星期二13节：学术规范与科技论文写作，与11-12节合并","matches":[{"name":"学术规范与科技论文写作 02","day":"tuesday","slot":"11-13","weeks":[11,12,13,14,15]}]},
+    {"id":"pdf-wed-5-6","source_id":"timetable-pdf","description":"星期三5-6节：多级轴流压气机特性预测","matches":[{"name":"多级轴流压气机特性预测 01","day":"wednesday","slot":"5-6","weeks":[12,13,14,15,16,17,18,19]}]},
+    {"id":"pdf-wed-7-8","source_id":"timetable-pdf","description":"星期三7-8节：多级轴流压气机特性预测","matches":[{"name":"多级轴流压气机特性预测 01","day":"wednesday","slot":"7-8","weeks":[4,5,6,7]}]},
+    {"id":"pdf-thu-1-2","source_id":"timetable-pdf","description":"星期四1-2节：数值分析","matches":[{"name":"数值分析 14","day":"thursday","slot":"1-2","weeks":[3,4,5,6,7,8,9,10,11,12,13,14]}]},
+    {"id":"pdf-thu-3-4","source_id":"timetable-pdf","description":"星期四3-4节：中华文化精神（英文）","matches":[{"name":"中华文化精神（英文）21","day":"thursday","slot":"3-4","weeks":[10,11,12,13,14,15,16,17]}]},
+    {"id":"pdf-thu-5-6","source_id":"timetable-pdf","description":"星期四5-6节：叶栅气体动力学基础","matches":[{"name":"叶栅气体动力学基础 01","day":"thursday","slot":"5-6","weeks":[13,14,15,16,17,18,19,20]}]},
+    {"id":"pdf-thu-11-12","source_id":"timetable-pdf","description":"星期四11-12节：学术规范与科技论文写作","matches":[{"name":"学术规范与科技论文写作 02","day":"thursday","slot":"11-13","weeks":[11,12,13,14,15]}]},
+    {"id":"pdf-thu-13","source_id":"timetable-pdf","description":"星期四13节：学术规范与科技论文写作，与11-12节合并","matches":[{"name":"学术规范与科技论文写作 02","day":"thursday","slot":"11-13","weeks":[11,12,13,14,15]}]},
+    {"id":"pdf-fri-7-8","source_id":"timetable-pdf","description":"星期五7-8节：叶栅气体动力学基础，地点按周拆分","matches":[{"name":"叶栅气体动力学基础 01","location":"教东D1-401","day":"friday","slot":"7-8","weeks":[7,8,9]},{"name":"叶栅气体动力学基础 01","location":"飞行器动力实验室113","day":"friday","slot":"7-8","weeks":[10]}]},
+    {"id":"pdf-fri-9-10","source_id":"timetable-pdf","description":"星期五9-10节：超燃冲压发动机原理和高超声速气动热力学","matches":[{"name":"超燃冲压发动机原理 01","day":"friday","slot":"9-10","weeks":[3,4,5,6]},{"name":"高超声速气动热力学 01","day":"friday","slot":"9-10","weeks":[7,8,9,10]}]},
+    {"id":"pdf-fri-11-12","source_id":"timetable-pdf","description":"星期五11-12节：高超声速气动热力学","matches":[{"name":"高超声速气动热力学 01","day":"friday","slot":"11-12","weeks":[7,8,9,10,11,12,13,14]}]},
+    {"id":"pdf-sat-1-2","source_id":"timetable-pdf","description":"星期六1-2节：研究生科研素养养成和超燃冲压发动机原理","matches":[{"name":"研究生科研素养养成 01","day":"saturday","slot":"1-2","weeks":[3,4]},{"name":"超燃冲压发动机原理 01","day":"saturday","slot":"1-2","weeks":[8,9,10,11,12,13,14]}]},
+    {"id":"pdf-sat-3-4","source_id":"timetable-pdf","description":"星期六3-4节：研究生科研素养养成和超燃冲压发动机原理","matches":[{"name":"研究生科研素养养成 01","day":"saturday","slot":"3-4","weeks":[3,4]},{"name":"超燃冲压发动机原理 01","day":"saturday","slot":"3-4","weeks":[7]}]},
+    {"id":"pdf-sat-7-8","source_id":"timetable-pdf","description":"星期六7-8节：研究生科研素养养成，地点按周拆分","matches":[{"name":"研究生科研素养养成 01","location":"教西C2-204","day":"saturday","slot":"7-8","weeks":[3]},{"name":"研究生科研素养养成 01","location":"教师另行安排场地（长安）","day":"saturday","slot":"7-8","weeks":[4]}]},
+    {"id":"pdf-sat-9-10","source_id":"timetable-pdf","description":"星期六9-10节：研究生科研素养养成，地点按周拆分","matches":[{"name":"研究生科研素养养成 01","location":"教西C2-204","day":"saturday","slot":"9-10","weeks":[3]},{"name":"研究生科研素养养成 01","location":"教师另行安排场地（长安）","day":"saturday","slot":"9-10","weeks":[4]}]}
+  ]
+}

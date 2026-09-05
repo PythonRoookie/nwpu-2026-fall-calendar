@@ -1,0 +1,343 @@
+{
+  "calendar_name": "西北工业大学 2026-2027秋季课表",
+  "timezone": "Asia/Shanghai",
+  "week1_monday": "2026-08-31",
+  "sources": [
+    {
+      "id": "timetable-pdf",
+      "kind": "pdf",
+      "path": "../课表.pdf",
+      "role": "primary"
+    },
+    {
+      "id": "nwpu-class-times",
+      "kind": "web",
+      "url": "https://jiaowu.nwpu.edu.cn/index.htm",
+      "role": "cross-check"
+    },
+    {
+      "id": "nwpu-semester-start",
+      "kind": "web",
+      "url": "https://www.nwpu.edu.cn/info/1198/126258.htm",
+      "role": "cross-check"
+    }
+  ],
+  "slots": {
+    "1-2": {"start": "08:30", "end": "10:10"},
+    "3-4": {"start": "10:30", "end": "12:10"},
+    "5-6": {"start": "12:20", "end": "13:50"},
+    "7-8": {"start": "14:00", "end": "15:40"},
+    "9-10": {"start": "16:00", "end": "17:40"},
+    "11-12": {"start": "19:00", "end": "20:40"},
+    "11-13": {"start": "19:00", "end": "21:25"},
+    "13-13": {"start": "20:40", "end": "21:25"}
+  },
+  "source_notes": [
+    "课表备注中的“粘性流体力学 M07M11040.01 (13~20)”没有星期、节次和地点，按技能规则保留为备注但不生成日历事件。",
+    "本日历仅反映课表 PDF；后续调停课、节假日及临时地点通知不在源文件中。"
+  ],
+  "courses": [
+    {
+      "name": "多级轴流压气机特性预测 01",
+      "teacher": "张皓光",
+      "location": "教西C2-303",
+      "mode": "recurring",
+      "day": "monday",
+      "slot": "3-4",
+      "weeks": [4, 5, 6, 7],
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    },
+    {
+      "name": "叶栅气体动力学基础 01",
+      "teacher": "曹志远",
+      "location": "教西B3-204",
+      "mode": "recurring",
+      "day": "monday",
+      "slot": "7-8",
+      "weeks": [7, 8, 9, 10],
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    },
+    {
+      "name": "数值分析 14",
+      "teacher": "刘昕",
+      "location": "教东D1-201",
+      "mode": "recurring",
+      "day": "tuesday",
+      "slot": "1-2",
+      "weeks": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    },
+    {
+      "name": "研究生科技英语 08",
+      "teacher": "智慧",
+      "location": "教东B1-101",
+      "mode": "recurring",
+      "day": "tuesday",
+      "slot": "3-4",
+      "weeks": [2, 3, 4, 5, 6, 7, 8, 9],
+      "note": "《研究生科技英语》长安8班",
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    },
+    {
+      "name": "超燃冲压发动机原理 01",
+      "teacher": "宋文艳",
+      "location": "教东D2-302",
+      "mode": "recurring",
+      "day": "tuesday",
+      "slot": "9-10",
+      "weeks": [3, 4, 5, 6],
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    },
+    {
+      "name": "高超声速气动热力学 01",
+      "teacher": "宋文艳",
+      "location": "教东D2-302",
+      "mode": "recurring",
+      "day": "tuesday",
+      "slot": "9-10",
+      "weeks": [7, 8, 9, 10],
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    },
+    {
+      "name": "学术规范与科技论文写作 02",
+      "teacher": "乔吉超",
+      "location": "教东D1-203",
+      "mode": "recurring",
+      "day": "tuesday",
+      "slot": "11-13",
+      "weeks": [11, 12, 13, 14, 15],
+      "note": "源课表的11-12节与13节为相同课程、教师和地点，已合并为连续事件。",
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    },
+    {
+      "name": "学术规范与科技论文写作 02",
+      "teacher": "乔吉超",
+      "location": "教东D1-203",
+      "mode": "recurring",
+      "day": "tuesday",
+      "slot": "11-12",
+      "weeks": [16],
+      "note": "第16周源课表只列11-12节。",
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    },
+    {
+      "name": "多级轴流压气机特性预测 01",
+      "teacher": "张皓光",
+      "location": "教师另行安排场地（长安）",
+      "mode": "recurring",
+      "day": "wednesday",
+      "slot": "5-6",
+      "weeks": [12, 13, 14, 15, 16, 17, 18, 19],
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    },
+    {
+      "name": "多级轴流压气机特性预测 01",
+      "teacher": "张皓光",
+      "location": "教西C2-303",
+      "mode": "recurring",
+      "day": "wednesday",
+      "slot": "7-8",
+      "weeks": [4, 5, 6, 7],
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    },
+    {
+      "name": "数值分析 14",
+      "teacher": "刘昕",
+      "location": "教东D1-201",
+      "mode": "recurring",
+      "day": "thursday",
+      "slot": "1-2",
+      "weeks": [3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14],
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    },
+    {
+      "name": "中华文化精神（英文）21",
+      "teacher": "汪建丽",
+      "location": "教东B1-301",
+      "mode": "recurring",
+      "day": "thursday",
+      "slot": "3-4",
+      "weeks": [10, 11, 12, 13, 14, 15, 16, 17],
+      "note": "中华文化精神（英文）长安21班",
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    },
+    {
+      "name": "叶栅气体动力学基础 01",
+      "teacher": "曹志远",
+      "location": "教师另行安排场地（长安）",
+      "mode": "recurring",
+      "day": "thursday",
+      "slot": "5-6",
+      "weeks": [13, 14, 15, 16, 17, 18, 19, 20],
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    },
+    {
+      "name": "学术规范与科技论文写作 02",
+      "teacher": "乔吉超",
+      "location": "教东D1-203",
+      "mode": "recurring",
+      "day": "thursday",
+      "slot": "11-13",
+      "weeks": [11, 12, 13, 14, 15],
+      "note": "源课表的11-12节与13节为相同课程、教师和地点，已合并为连续事件。",
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    },
+    {
+      "name": "叶栅气体动力学基础 01",
+      "teacher": "曹志远",
+      "location": "教东D1-401",
+      "mode": "recurring",
+      "day": "friday",
+      "slot": "7-8",
+      "weeks": [7, 8, 9],
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    },
+    {
+      "name": "叶栅气体动力学基础 01",
+      "teacher": "曹志远",
+      "location": "飞行器动力实验室113",
+      "mode": "recurring",
+      "day": "friday",
+      "slot": "7-8",
+      "weeks": [10],
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    },
+    {
+      "name": "超燃冲压发动机原理 01",
+      "teacher": "宋文艳",
+      "location": "教东D2-302",
+      "mode": "recurring",
+      "day": "friday",
+      "slot": "9-10",
+      "weeks": [3, 4, 5, 6],
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    },
+    {
+      "name": "高超声速气动热力学 01",
+      "teacher": "宋文艳",
+      "location": "教东D2-302",
+      "mode": "recurring",
+      "day": "friday",
+      "slot": "9-10",
+      "weeks": [7, 8, 9, 10],
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    },
+    {
+      "name": "高超声速气动热力学 01",
+      "teacher": "宋文艳",
+      "location": "教师另行安排场地（长安）",
+      "mode": "recurring",
+      "day": "friday",
+      "slot": "11-12",
+      "weeks": [7, 8, 9, 10, 11, 12, 13, 14],
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    },
+    {
+      "name": "研究生科研素养养成 01",
+      "teacher": "苏越",
+      "location": "教西C2-204",
+      "mode": "recurring",
+      "day": "saturday",
+      "slot": "1-2",
+      "weeks": [3, 4],
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    },
+    {
+      "name": "超燃冲压发动机原理 01",
+      "teacher": "宋文艳",
+      "location": "教师另行安排场地（长安）",
+      "mode": "recurring",
+      "day": "saturday",
+      "slot": "1-2",
+      "weeks": [8, 9, 10, 11, 12, 13, 14],
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    },
+    {
+      "name": "研究生科研素养养成 01",
+      "teacher": "苏越",
+      "location": "教西C2-204",
+      "mode": "recurring",
+      "day": "saturday",
+      "slot": "3-4",
+      "weeks": [3, 4],
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    },
+    {
+      "name": "超燃冲压发动机原理 01",
+      "teacher": "宋文艳",
+      "location": "飞行器动力实验室102",
+      "mode": "recurring",
+      "day": "saturday",
+      "slot": "3-4",
+      "weeks": [7],
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    },
+    {
+      "name": "研究生科研素养养成 01",
+      "teacher": "苏越",
+      "location": "教西C2-204",
+      "mode": "recurring",
+      "day": "saturday",
+      "slot": "7-8",
+      "weeks": [3],
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    },
+    {
+      "name": "研究生科研素养养成 01",
+      "teacher": "苏越",
+      "location": "教师另行安排场地（长安）",
+      "mode": "recurring",
+      "day": "saturday",
+      "slot": "7-8",
+      "weeks": [4],
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    },
+    {
+      "name": "研究生科研素养养成 01",
+      "teacher": "苏越",
+      "location": "教西C2-204",
+      "mode": "recurring",
+      "day": "saturday",
+      "slot": "9-10",
+      "weeks": [3],
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    },
+    {
+      "name": "研究生科研素养养成 01",
+      "teacher": "苏越",
+      "location": "教师另行安排场地（长安）",
+      "mode": "recurring",
+      "day": "saturday",
+      "slot": "9-10",
+      "weeks": [4],
+      "sources": ["timetable-pdf"],
+      "status": "confirmed"
+    }
+  ]
+}
