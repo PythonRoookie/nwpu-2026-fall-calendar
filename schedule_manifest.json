@@ -10,6 +10,12 @@
       "role": "primary"
     },
     {
+      "id": "course-update-image-2026-09-24",
+      "kind": "image",
+      "role": "update",
+      "note": "用户提供的多级轴流压气机特性预测上课地点截图：第4周教西C2-303，第5至7周教东C-208。"
+    },
+    {
       "id": "nwpu-class-times",
       "kind": "web",
       "url": "https://jiaowu.nwpu.edu.cn/index.htm",
@@ -34,7 +40,8 @@
   },
   "source_notes": [
     "课表备注中的“粘性流体力学 M07M11040.01 (13~20)”没有星期、节次和地点，按技能规则保留为备注但不生成日历事件。",
-    "本日历仅反映课表 PDF；后续调停课、节假日及临时地点通知不在源文件中。"
+    "2026-09-24 用户更新：超燃冲压发动机原理每次上课地点以通知为准，清除日历中的全部固定地点。",
+    "本日历反映原课表 PDF 与已收到的用户更新；其余临时调停课、节假日及地点通知不在源文件中。"
   ],
   "courses": [
     {
@@ -44,8 +51,19 @@
       "mode": "recurring",
       "day": "monday",
       "slot": "3-4",
-      "weeks": [4, 5, 6, 7],
-      "sources": ["timetable-pdf"],
+      "weeks": [4],
+      "sources": ["timetable-pdf", "course-update-image-2026-09-24"],
+      "status": "confirmed"
+    },
+    {
+      "name": "多级轴流压气机特性预测 01",
+      "teacher": "张皓光",
+      "location": "教东C-208",
+      "mode": "recurring",
+      "day": "monday",
+      "slot": "3-4",
+      "weeks": [5, 6, 7],
+      "sources": ["timetable-pdf", "course-update-image-2026-09-24"],
       "status": "confirmed"
     },
     {
@@ -85,11 +103,12 @@
     {
       "name": "超燃冲压发动机原理 01",
       "teacher": "宋文艳",
-      "location": "教东D2-302",
+      "location": "",
       "mode": "recurring",
       "day": "tuesday",
       "slot": "9-10",
       "weeks": [3, 4, 5, 6],
+      "note": "每次上课地点以通知为准。",
       "sources": ["timetable-pdf"],
       "status": "confirmed"
     },
@@ -146,8 +165,19 @@
       "mode": "recurring",
       "day": "wednesday",
       "slot": "7-8",
-      "weeks": [4, 5, 6, 7],
-      "sources": ["timetable-pdf"],
+      "weeks": [4],
+      "sources": ["timetable-pdf", "course-update-image-2026-09-24"],
+      "status": "confirmed"
+    },
+    {
+      "name": "多级轴流压气机特性预测 01",
+      "teacher": "张皓光",
+      "location": "教东C-208",
+      "mode": "recurring",
+      "day": "wednesday",
+      "slot": "7-8",
+      "weeks": [5, 6, 7],
+      "sources": ["timetable-pdf", "course-update-image-2026-09-24"],
       "status": "confirmed"
     },
     {
@@ -221,11 +251,12 @@
     {
       "name": "超燃冲压发动机原理 01",
       "teacher": "宋文艳",
-      "location": "教东D2-302",
+      "location": "",
       "mode": "recurring",
       "day": "friday",
       "slot": "9-10",
       "weeks": [3, 4, 5, 6],
+      "note": "每次上课地点以通知为准。",
       "sources": ["timetable-pdf"],
       "status": "confirmed"
     },
@@ -265,11 +296,12 @@
     {
       "name": "超燃冲压发动机原理 01",
       "teacher": "宋文艳",
-      "location": "教师另行安排场地（长安）",
+      "location": "",
       "mode": "recurring",
       "day": "saturday",
       "slot": "1-2",
       "weeks": [8, 9, 10, 11, 12, 13, 14],
+      "note": "每次上课地点以通知为准。",
       "sources": ["timetable-pdf"],
       "status": "confirmed"
     },
@@ -287,11 +319,12 @@
     {
       "name": "超燃冲压发动机原理 01",
       "teacher": "宋文艳",
-      "location": "飞行器动力实验室102",
+      "location": "",
       "mode": "recurring",
       "day": "saturday",
       "slot": "3-4",
       "weeks": [7],
+      "note": "每次上课地点以通知为准。",
       "sources": ["timetable-pdf"],
       "status": "confirmed"
     },
