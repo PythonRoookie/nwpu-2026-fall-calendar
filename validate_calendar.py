@@ -49,11 +49,12 @@ def expected_events(manifest: dict) -> Counter:
     return expected
 
 
-def actual_events(text: str) -> tuple[Counter, list[str]]:
+def actual_events(text: str) -> tuple[Counter, list[str], dict[tuple[str, str, str], str]]:
     unfolded = re.sub(r"\r\n[ \t]", "", text)
     blocks = re.findall(r"BEGIN:VEVENT\r\n(.*?)\r\nEND:VEVENT", unfolded, re.S)
     actual = Counter()
     uids: list[str] = []
+    uid_by_identity: dict[tuple[str, str, str], str] = {}
     for block in blocks:
         fields: dict[str, str] = {}
         for line in block.split("\r\n"):
@@ -66,7 +67,11 @@ def actual_events(text: str) -> tuple[Counter, list[str]]:
             fields["DTEND"],
         )] += 1
         uids.append(fields["UID"])
-    return actual, uids
+        identity = (unescape_ics(fields["SUMMARY"]), fields["DTSTART"], fields["DTEND"])
+        if identity in uid_by_identity:
+            raise SystemExit(f"FAIL: duplicate event identity {identity}")
+        uid_by_identity[identity] = fields["UID"]
+    return actual, uids, uid_by_identity
 
 
 def main() -> None:
@@ -85,13 +90,22 @@ def main() -> None:
         raise SystemExit("FAIL: invalid VCALENDAR envelope")
 
     expected = expected_events(manifest)
-    actual, uids = actual_events(text)
+    actual, uids, uid_by_identity = actual_events(text)
     if actual != expected:
         missing = expected - actual
         extra = actual - expected
         raise SystemExit(f"FAIL: event mismatch missing={list(missing.items())[:3]} extra={list(extra.items())[:3]}")
     if len(uids) != len(set(uids)):
         raise SystemExit("FAIL: duplicate UID values")
+    if len(sys.argv) > 3:
+        previous_text = Path(sys.argv[3]).read_bytes().decode("utf-8")
+        _, _, previous_uids = actual_events(previous_text)
+        changed_uids = [
+            identity for identity, uid in uid_by_identity.items()
+            if identity in previous_uids and uid != previous_uids[identity]
+        ]
+        if changed_uids:
+            raise SystemExit(f"FAIL: existing event UIDs changed: {changed_uids[:3]}")
 
     dates = sorted(key[2][:8] for key in actual.elements())
     print(
