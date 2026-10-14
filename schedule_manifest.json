@@ -16,6 +16,24 @@
       "note": "用户提供的多级轴流压气机特性预测上课地点截图：第4周教西C2-303，第5至7周教东C-208。"
     },
     {
+      "id": "supercombustion-room-chat-2026-10-14",
+      "kind": "chat-text",
+      "role": "update",
+      "note": "用户通知超燃冲压发动机原理上课地点为学院楼211A。"
+    },
+    {
+      "id": "viscous-notice-image-2026-10-14",
+      "kind": "image",
+      "role": "update",
+      "note": "杨青真的课程通知：本周四开始，周四晚上每周三个学时至第10周；第11周起拟加周一上午3-4节并继续周四晚课程，但通知中的“11～14停课”含义与具体停课区间待确认。"
+    },
+    {
+      "id": "viscous-confirmation-chat-2026-10-14",
+      "kind": "chat-text",
+      "role": "cross-check",
+      "note": "用户确认本周四为2026-10-15，晚上上课为第11-13节，停课时间确认后另行通知。"
+    },
+    {
       "id": "nwpu-class-times",
       "kind": "web",
       "url": "https://jiaowu.nwpu.edu.cn/index.htm",
@@ -39,8 +57,8 @@
     "13-13": {"start": "20:40", "end": "21:25"}
   },
   "source_notes": [
-    "课表备注中的“粘性流体力学 M07M11040.01 (13~20)”没有星期、节次和地点，按技能规则保留为备注但不生成日历事件。",
-    "2026-09-24 用户更新：超燃冲压发动机原理每次上课地点以通知为准，清除日历中的全部固定地点。",
+    "原课表备注中的“粘性流体力学 M07M11040.01 (13~20)”未列星期和节次；2026-10-14 新通知与用户确认了第7-10周周四11-13节。第11周起拟加周一3-4节，但停课区间尚待确认，暂不生成后续事件。",
+    "2026-10-14 用户更新：超燃冲压发动机原理地点统一改为学院楼211A，覆盖先前的待通知地点说明。",
     "本日历反映原课表 PDF 与已收到的用户更新；其余临时调停课、节假日及地点通知不在源文件中。"
   ],
   "courses": [
@@ -103,13 +121,12 @@
     {
       "name": "超燃冲压发动机原理 01",
       "teacher": "宋文艳",
-      "location": "",
+      "location": "学院楼211A",
       "mode": "recurring",
       "day": "tuesday",
       "slot": "9-10",
       "weeks": [3, 4, 5, 6],
-      "note": "每次上课地点以通知为准。",
-      "sources": ["timetable-pdf"],
+      "sources": ["timetable-pdf", "supercombustion-room-chat-2026-10-14"],
       "status": "confirmed"
     },
     {
@@ -227,6 +244,18 @@
       "status": "confirmed"
     },
     {
+      "name": "粘性流体力学 01",
+      "teacher": "",
+      "location": "",
+      "mode": "recurring",
+      "day": "thursday",
+      "slot": "11-13",
+      "weeks": [7, 8, 9, 10],
+      "note": "教室待通知。第11周起拟加周一3-4节；停课区间尚待确认，收到通知后更新订阅日历。",
+      "sources": ["viscous-notice-image-2026-10-14", "viscous-confirmation-chat-2026-10-14"],
+      "status": "confirmed"
+    },
+    {
       "name": "叶栅气体动力学基础 01",
       "teacher": "曹志远",
       "location": "教东D1-401",
@@ -251,13 +280,12 @@
     {
       "name": "超燃冲压发动机原理 01",
       "teacher": "宋文艳",
-      "location": "",
+      "location": "学院楼211A",
       "mode": "recurring",
       "day": "friday",
       "slot": "9-10",
       "weeks": [3, 4, 5, 6],
-      "note": "每次上课地点以通知为准。",
-      "sources": ["timetable-pdf"],
+      "sources": ["timetable-pdf", "supercombustion-room-chat-2026-10-14"],
       "status": "confirmed"
     },
     {
@@ -296,13 +324,12 @@
     {
       "name": "超燃冲压发动机原理 01",
       "teacher": "宋文艳",
-      "location": "",
+      "location": "学院楼211A",
       "mode": "recurring",
       "day": "saturday",
       "slot": "1-2",
       "weeks": [8, 9, 10, 11, 12, 13, 14],
-      "note": "每次上课地点以通知为准。",
-      "sources": ["timetable-pdf"],
+      "sources": ["timetable-pdf", "supercombustion-room-chat-2026-10-14"],
       "status": "confirmed"
     },
     {
@@ -319,13 +346,12 @@
     {
       "name": "超燃冲压发动机原理 01",
       "teacher": "宋文艳",
-      "location": "",
+      "location": "学院楼211A",
       "mode": "recurring",
       "day": "saturday",
       "slot": "3-4",
       "weeks": [7],
-      "note": "每次上课地点以通知为准。",
-      "sources": ["timetable-pdf"],
+      "sources": ["timetable-pdf", "supercombustion-room-chat-2026-10-14"],
       "status": "confirmed"
     },
     {

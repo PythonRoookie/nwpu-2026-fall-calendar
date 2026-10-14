@@ -24,6 +24,9 @@
     {"id":"image-mon-week-4","source_id":"course-update-image-2026-09-24","description":"第4周周一3-4节，教西C2-303","matches":[{"name":"多级轴流压气机特性预测 01","location":"教西C2-303","day":"monday","slot":"3-4","weeks":[4]}]},
     {"id":"image-wed-week-4","source_id":"course-update-image-2026-09-24","description":"第4周周三7-8节，教西C2-303","matches":[{"name":"多级轴流压气机特性预测 01","location":"教西C2-303","day":"wednesday","slot":"7-8","weeks":[4]}]},
     {"id":"image-mon-weeks-5-7","source_id":"course-update-image-2026-09-24","description":"第5至7周周一3-4节，教东C-208","matches":[{"name":"多级轴流压气机特性预测 01","location":"教东C-208","day":"monday","slot":"3-4","weeks":[5,6,7]}]},
-    {"id":"image-wed-weeks-5-7","source_id":"course-update-image-2026-09-24","description":"第5至7周周三7-8节，教东C-208","matches":[{"name":"多级轴流压气机特性预测 01","location":"教东C-208","day":"wednesday","slot":"7-8","weeks":[5,6,7]}]}
+    {"id":"image-wed-weeks-5-7","source_id":"course-update-image-2026-09-24","description":"第5至7周周三7-8节，教东C-208","matches":[{"name":"多级轴流压气机特性预测 01","location":"教东C-208","day":"wednesday","slot":"7-8","weeks":[5,6,7]}]},
+    {"id":"chat-supercombustion-room","source_id":"supercombustion-room-chat-2026-10-14","description":"超燃冲压发动机原理所有课次地点统一更新为学院楼211A","matches":[{"name":"超燃冲压发动机原理 01","location":"学院楼211A","day":"tuesday","slot":"9-10","weeks":[3,4,5,6]},{"name":"超燃冲压发动机原理 01","location":"学院楼211A","day":"friday","slot":"9-10","weeks":[3,4,5,6]},{"name":"超燃冲压发动机原理 01","location":"学院楼211A","day":"saturday","slot":"1-2","weeks":[8,9,10,11,12,13,14]},{"name":"超燃冲压发动机原理 01","location":"学院楼211A","day":"saturday","slot":"3-4","weeks":[7]}]},
+    {"id":"image-viscous-start","source_id":"viscous-notice-image-2026-10-14","description":"粘性流体力学暂定第7-10周周四晚三个学时","matches":[{"name":"粘性流体力学 01","location":"","day":"thursday","slot":"11-13","weeks":[7,8,9,10]}]},
+    {"id":"chat-viscous-clarification","source_id":"viscous-confirmation-chat-2026-10-14","description":"用户确认2026-10-15开课，晚间为11-13节，后续停课时间待通知","matches":[{"name":"粘性流体力学 01","location":"","day":"thursday","slot":"11-13","weeks":[7,8,9,10]}]}
   ]
 }
