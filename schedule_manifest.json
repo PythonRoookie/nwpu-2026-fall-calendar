@@ -46,6 +46,18 @@
       "note": "用户确认第15周周四晚粘性流体力学与学术规范与科技论文写作的重叠日程均保留。"
     },
     {
+      "id": "viscous-location-image-2026-10-16",
+      "kind": "image",
+      "role": "update",
+      "note": "用户提供的课程通知截图：当晚19点在教东B1-204；第15-19周的上课地点为教东D1-304。地点通知不单独增加第19周课次。"
+    },
+    {
+      "id": "viscous-date-chat-2026-10-16",
+      "kind": "chat-text",
+      "role": "cross-check",
+      "note": "用户确认截图中的“今晚”指2026-10-15，即第7周周四的课程。"
+    },
+    {
       "id": "nwpu-class-times",
       "kind": "web",
       "url": "https://jiaowu.nwpu.edu.cn/index.htm",
@@ -70,6 +82,7 @@
   },
   "source_notes": [
     "粘性流体力学按新排课图第7-10周周四11-13节、第11-14周停课、第15-18周周一3-4节及周四11-13节；参照两门1学分课程各16学时，2学分共32学时，计算为4×3+4×(2+3)=32学时。第15周周四晚与学术规范与科技论文写作重叠，用户确认两门课都保留。",
+    "2026-10-16 地点更新：第7周周四（2026-10-15）教东B1-204；第8-10周地点仍待通知；已排第15-18周的周一、周四均为教东D1-304。截图提及第19周地点，但不构成新增课次依据。",
     "2026-10-14 用户更新：超燃冲压发动机原理地点统一改为学院楼211A，覆盖先前的待通知地点说明。",
     "本日历反映原课表 PDF 与已收到的用户更新；其余临时调停课、节假日及地点通知不在源文件中。"
   ],
@@ -258,11 +271,23 @@
     {
       "name": "粘性流体力学 01",
       "teacher": "",
+      "location": "教东B1-204",
+      "mode": "recurring",
+      "day": "thursday",
+      "slot": "11-13",
+      "weeks": [7],
+      "note": "2026-10-15 本次课地点。第11-14周停课，第15-18周恢复并增加周一上午课程。",
+      "sources": ["viscous-notice-image-2026-10-14", "viscous-confirmation-chat-2026-10-14", "viscous-rules-image-2026-10-14", "viscous-location-image-2026-10-16", "viscous-date-chat-2026-10-16"],
+      "status": "confirmed"
+    },
+    {
+      "name": "粘性流体力学 01",
+      "teacher": "",
       "location": "",
       "mode": "recurring",
       "day": "thursday",
       "slot": "11-13",
-      "weeks": [7, 8, 9, 10],
+      "weeks": [8, 9, 10],
       "note": "教室待通知。第11-14周停课，第15-18周恢复并增加周一上午课程。",
       "sources": ["viscous-notice-image-2026-10-14", "viscous-confirmation-chat-2026-10-14", "viscous-rules-image-2026-10-14"],
       "status": "confirmed"
@@ -270,25 +295,25 @@
     {
       "name": "粘性流体力学 01",
       "teacher": "",
-      "location": "",
+      "location": "教东D1-304",
       "mode": "recurring",
       "day": "monday",
       "slot": "3-4",
       "weeks": [15, 16, 17, 18],
-      "note": "教室待通知。按2学分32学时推算，第18周结课。",
-      "sources": ["viscous-rules-image-2026-10-14"],
+      "note": "按2学分32学时推算，第18周结课。",
+      "sources": ["viscous-rules-image-2026-10-14", "viscous-location-image-2026-10-16"],
       "status": "confirmed"
     },
     {
       "name": "粘性流体力学 01",
       "teacher": "",
-      "location": "",
+      "location": "教东D1-304",
       "mode": "recurring",
       "day": "thursday",
       "slot": "11-13",
       "weeks": [15, 16, 17, 18],
-      "note": "教室待通知。第15周本课与学术规范与科技论文写作重叠，用户确认均保留；按2学分32学时推算，第18周结课。",
-      "sources": ["viscous-rules-image-2026-10-14", "viscous-overlap-chat-2026-10-14"],
+      "note": "第15周本课与学术规范与科技论文写作重叠，用户确认均保留；按2学分32学时推算，第18周结课。",
+      "sources": ["viscous-rules-image-2026-10-14", "viscous-overlap-chat-2026-10-14", "viscous-location-image-2026-10-16"],
       "status": "confirmed"
     },
     {
