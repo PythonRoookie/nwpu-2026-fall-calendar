@@ -64,6 +64,12 @@
       "note": "用户明确要求第8-10周粘性流体力学沿用2026-10-15的上课地点教东B1-204。"
     },
     {
+      "id": "course-cancellations-chat-2026-11-04",
+      "kind": "chat-text",
+      "role": "update",
+      "note": "用户确认所有标注教师另行安排场地的课次不上课；超燃冲压发动机原理最后一课为2026-10-31；高超声速气动热力学最后一课为2026-11-03。"
+    },
+    {
       "id": "nwpu-class-times",
       "kind": "web",
       "url": "https://jiaowu.nwpu.edu.cn/index.htm",
@@ -87,6 +93,7 @@
     "13-13": {"start": "20:40", "end": "21:25"}
   },
   "source_notes": [
+    "2026-11-04 用户更新：删除所有地点为教师另行安排场地（长安）的课次；超燃冲压发动机原理只保留至2026-10-31（第9周周六）；高超声速气动热力学只保留至2026-11-03（第10周周二）。新通知覆盖原PDF对应排课。",
     "粘性流体力学按新排课图第7-10周周四11-13节、第11-14周停课、第15-18周周一3-4节及周四11-13节；参照两门1学分课程各16学时，2学分共32学时，计算为4×3+4×(2+3)=32学时。第15周周四晚与学术规范与科技论文写作重叠，用户确认两门课都保留。",
     "2026-10-16 地点更新：第7-10周周四均为教东B1-204，其中第8-10周按用户后续明确指示沿用10月15日地点；已排第15-18周的周一、周四均为教东D1-304。截图提及第19周地点，但不构成新增课次依据。",
     "2026-10-14 用户更新：超燃冲压发动机原理地点统一改为学院楼211A，覆盖先前的待通知地点说明。",
@@ -168,7 +175,7 @@
       "day": "tuesday",
       "slot": "9-10",
       "weeks": [7, 8, 9, 10],
-      "sources": ["timetable-pdf"],
+      "sources": ["timetable-pdf", "course-cancellations-chat-2026-11-04"],
       "status": "confirmed"
     },
     {
@@ -192,17 +199,6 @@
       "slot": "11-12",
       "weeks": [16],
       "note": "第16周源课表只列11-12节。",
-      "sources": ["timetable-pdf"],
-      "status": "confirmed"
-    },
-    {
-      "name": "多级轴流压气机特性预测 01",
-      "teacher": "张皓光",
-      "location": "教师另行安排场地（长安）",
-      "mode": "recurring",
-      "day": "wednesday",
-      "slot": "5-6",
-      "weeks": [12, 13, 14, 15, 16, 17, 18, 19],
       "sources": ["timetable-pdf"],
       "status": "confirmed"
     },
@@ -248,17 +244,6 @@
       "slot": "3-4",
       "weeks": [10, 11, 12, 13, 14, 15, 16, 17],
       "note": "中华文化精神（英文）长安21班",
-      "sources": ["timetable-pdf"],
-      "status": "confirmed"
-    },
-    {
-      "name": "叶栅气体动力学基础 01",
-      "teacher": "曹志远",
-      "location": "教师另行安排场地（长安）",
-      "mode": "recurring",
-      "day": "thursday",
-      "slot": "5-6",
-      "weeks": [13, 14, 15, 16, 17, 18, 19, 20],
       "sources": ["timetable-pdf"],
       "status": "confirmed"
     },
@@ -362,19 +347,8 @@
       "mode": "recurring",
       "day": "friday",
       "slot": "9-10",
-      "weeks": [7, 8, 9, 10],
-      "sources": ["timetable-pdf"],
-      "status": "confirmed"
-    },
-    {
-      "name": "高超声速气动热力学 01",
-      "teacher": "宋文艳",
-      "location": "教师另行安排场地（长安）",
-      "mode": "recurring",
-      "day": "friday",
-      "slot": "11-12",
-      "weeks": [7, 8, 9, 10, 11, 12, 13, 14],
-      "sources": ["timetable-pdf"],
+      "weeks": [7, 8, 9],
+      "sources": ["timetable-pdf", "course-cancellations-chat-2026-11-04"],
       "status": "confirmed"
     },
     {
@@ -395,8 +369,8 @@
       "mode": "recurring",
       "day": "saturday",
       "slot": "1-2",
-      "weeks": [8, 9, 10, 11, 12, 13, 14],
-      "sources": ["timetable-pdf", "supercombustion-room-chat-2026-10-14"],
+      "weeks": [8, 9],
+      "sources": ["timetable-pdf", "supercombustion-room-chat-2026-10-14", "course-cancellations-chat-2026-11-04"],
       "status": "confirmed"
     },
     {
@@ -435,33 +409,11 @@
     {
       "name": "研究生科研素养养成 01",
       "teacher": "苏越",
-      "location": "教师另行安排场地（长安）",
-      "mode": "recurring",
-      "day": "saturday",
-      "slot": "7-8",
-      "weeks": [4],
-      "sources": ["timetable-pdf"],
-      "status": "confirmed"
-    },
-    {
-      "name": "研究生科研素养养成 01",
-      "teacher": "苏越",
       "location": "教西C2-204",
       "mode": "recurring",
       "day": "saturday",
       "slot": "9-10",
       "weeks": [3],
-      "sources": ["timetable-pdf"],
-      "status": "confirmed"
-    },
-    {
-      "name": "研究生科研素养养成 01",
-      "teacher": "苏越",
-      "location": "教师另行安排场地（长安）",
-      "mode": "recurring",
-      "day": "saturday",
-      "slot": "9-10",
-      "weeks": [4],
       "sources": ["timetable-pdf"],
       "status": "confirmed"
     }
